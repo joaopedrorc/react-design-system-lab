@@ -7,13 +7,14 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -p 6006 && vite",
     "build-storybook": "build-storybook",
     "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.0.0",
     "@radix-ui/react-slot": "^1.0.0",
+    "@storybook/addon-a11y": "^6.5.12",
     "clsx": "^1.2.1",
     "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
